@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+
+    <style>
+      .calculator {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+
+        grid-gap: 3px;
+        /* grid-gap: 10px 10px; */
+        grid-template-areas: "y y y y"
+                             "a b c d"
+                             "e f g h"
+                             "i j k l"
+                             "m n o p"
+                             "q q r s";
+
+      }
+
+
+      .answer {
+        grid-area: y;
+      }
+
+      .girda {
+        grid-area: a;
+      }
+
+      .gridb {
+        grid-area: b;
+      }
+
+      .gridc {
+        grid-area: c;
+      }
+      .gridd {
+        grid-area: d;
+      }
+      .gride {
+        grid-area: e;
+      }
+      .gridf {
+        grid-area: f;
+      }
+
+
+      .gridg {
+        grid-area: g;
+      }
+      .gridh {
+        grid-area: h;
+      }
+      .gridi {
+        grid-area: i;
+      }
+      .gridl {
+        grid-area: l;
+      }
+      .gridm {
+        grid-area: m;
+      }
+      .gridn {
+        grid-area: n;
+      }
+      .grido {
+        grid-area: o;
+      }
+
+      .gridp {
+        grid-area: p;
+      }
+      .gridq {
+        grid-area: q;
+      }
+      .gridr {
+        grid-area: r;
+      }
+      .grids {
+        grid-area: s;
+      }
+
+      .calculator {
+        width: 200px;
+        background-color: black;
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+      }
+
+      button {
+        width: 40px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 30px;
+        border: 0;
+
+        background-color: #d4d4d2
+
+      }
+
+      .gridd, .gridh, .gridl ,.gridp , .grids {
+        background-color: #FF9500;
+      }
+
+      .gridq {
+        width: auto;
+      }
+
+      .grida, .gridb, .gridc {
+        background-color: #505050ws
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <div class="calculator">
+
+
+
+        <div class="answer">3.14</div>
+
+        <button class="grida" >C</button>
+        <button class="gridb" >+/-</button>
+        <button class="gridc" >%</button>
+
+        <button class="gridd" >/</button>
+        <button class="gridh" >X</button>
+        <button class="gridl" >-</button>
+        <button class="gridp" >+</button>
+        <button class="grids" >=</button>
+
+        <button class="gridig" >9</button>
+        <button class="gridf" >8</button>
+        <button class="gride" >7</button>
+
+        <button class="gridk" >6</button>
+        <button class="gridj" >5</button>
+        <button class="gridi" >4</button>
+
+        <button class="grido" >3</button>
+        <button class="gridn" >2</button>
+        <button class="gridm" >1</button>
+
+        <button class="gridq" >0</button>
+        <button class="gridr" >.</button>
+
+
+    </div>
+
+  </body>
+</html>`
